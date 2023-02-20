@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6wot2MtA0h2b6pb7a3prw7LGgwomATtyPnuQNx1nRBXkFQPPvR8fzpWvnCkNGcfgUuPOyE0/zgFfRCVCpSuDkg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkApi\\PunkApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LUOK\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\LUOK\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
