@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkRouting\\PunkRouting.csproj": {}
+    "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkRouting\\PunkRouting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkApi\\PunkApi.csproj": {
+    "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkApi\\PunkApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkApi\\PunkApi.csproj",
+        "projectUniqueName": "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkApi\\PunkApi.csproj",
         "projectName": "PunkApi",
-        "projectPath": "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkApi\\PunkApi.csproj",
-        "packagesPath": "C:\\Users\\LUOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkApi\\obj\\",
+        "projectPath": "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkApi\\PunkApi.csproj",
+        "packagesPath": "C:\\Users\\luo_k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LUOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luo_k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,14 @@
               "target": "Package",
               "version": "[30.0.1, )"
             },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
@@ -65,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkRouting\\PunkRouting.csproj": {
+    "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkRouting\\PunkRouting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkRouting\\PunkRouting.csproj",
+        "projectUniqueName": "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkRouting\\PunkRouting.csproj",
         "projectName": "PunkRouting",
-        "projectPath": "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkRouting\\PunkRouting.csproj",
-        "packagesPath": "C:\\Users\\LUOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkRouting\\obj\\",
+        "projectPath": "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkRouting\\PunkRouting.csproj",
+        "packagesPath": "C:\\Users\\luo_k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkRouting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LUOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luo_k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +101,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkApi\\PunkApi.csproj": {
-                "projectPath": "C:\\Users\\LUOK\\source\\repos\\PunkApi\\PunkApi\\PunkApi.csproj"
+              "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkApi\\PunkApi.csproj": {
+                "projectPath": "C:\\Users\\luo_k\\workbench\\csharp\\Beerproduct\\PunkApi\\PunkApi\\PunkApi.csproj"
               }
             }
           }
@@ -133,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

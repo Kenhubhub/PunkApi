@@ -8,9 +8,9 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 namespace PunkApi
 {
-    public class PunkClient
+    public class BeersClient
     {
-        public PunkClient() { }
+        public BeersClient() { }
         public async Task<List<Beer>> retrieve(string API_ENDPOINT)
         {
             HttpClient client = new HttpClient();

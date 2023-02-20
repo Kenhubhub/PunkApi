@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using CsvHelper;
 namespace PunkApi
 {
-    public class PunkCsvWizard
+    public class BeersProductCsvGenerator
     {
-        public void Create(List<Beer> products)
+        public void CreateCsv(List<Beer> products)
         {
             var stringBuilder = new StringBuilder(); 
             stringBuilder.AppendLine($"id,name,description,image_url,abv");

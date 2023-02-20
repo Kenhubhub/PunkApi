@@ -22,11 +22,11 @@ namespace PunkApp
                 }
             }
             
-            var client = new PunkClient();
+            var client = new BeersClient();
             var products = await client.retrieve("https://api.punkapi.com/v2/beers");
             PrintProducts(products);
-            var csvwiz = new PunkCsvWizard();
-            csvwiz.Create(products);
+            var csvwiz = new BeersProductCsvGenerator();
+            csvwiz.CreateCsv(products);
             var Readproducts = File.ReadAllLines(@"c:\\temp\\products.csv").Skip(1).ToList();
             Console.WriteLine("Reading...");
             
